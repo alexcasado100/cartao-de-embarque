@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
+  display: grid;
+  place-content: center;
+}
+
+#content {
+  width: 327px;
+  height: 656px;
+}
+
+#content .text-1 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#content .text-2 {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  opacity: 0.64;
+  margin-top: 20px;
+}
+
+#content .ticket {
+  width: 327px;
+  height: 544px;
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+  margin-top: 20px;
+}
+
+.ticket .info-flight {
+  padding: 24px 32px;
+  gap: 24px;
+  width: 327px;
+  height: 191px;
+  border-radius: 24px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+  background-color: white;
+}
+
+.ticket .info-passanger {
+  padding: 24px 32px;
+  gap: 81px;
+  width: 327px;
+  height: 84px;
+  border-radius: 24px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+  background-color: white;
+}
+
+.ticket .info-boarding {
+  padding: 24px 32px;
+  gap: 24px;
+  width: 327px;
+  height: 269px;
+  border-radius: 24px;
+  background-color: white;
+}
+
+#container-flight01 {
+  width: 263px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.serial-number {
+  width: 50px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.serial-number .serial-01,
+.date .date-01, .departure .dep-01,
+.arrival .arr-01, .passanger .pass-01,
+.seat .seat-01, #info-01 .info-locality,
+#info-02 .info-locality, #info-03 .info-locality,
+.qr-code-boarding p {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.serial-number .serial-02,
+.date .date-02, .passanger .pass-02,
+.seat .seat-02, #info-02 .info-number,
+#info-03 .info-number {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.date {
+  width: 94px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#container-flight02 {
+  width: 263px;
+  height: 83px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.departure {
+  width: 103px;
+  height: 83px;
+  display: flex;
+  flex-direction: column;
+}
+
+.departure .dep-02,
+.arrival .arr-02 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.departure .dep-03,
+.arrival .arr-03 {
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.arrival {
+  width: 121px;
+  height: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+sup {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.airplane-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 39px;
+  height: 83px;
+}
+
+.info-passanger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passanger {
+  width: 110px;
+  height: 36px;
+}
+
+.seat {
+  width: 52px;
+  height: 36px;
+  text-align: end;
+}
+
+.boarding {
+  width: 263px;
+  height: 177px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.boarding .hour-boarding {
+  width: 95px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.boarding .qr-code-boarding {
+  width: 160px;
+  height: 177px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#info-01 {
+  width: 95px;
+  height: 46px;
+}
+
+#info-01 .info-hour {
+  padding: 4px 8px;
+  gap: 8px;
+  width: 54px;
+  height: 27px;
+  background: #633BBC;
+  color: white;
+  border-radius: 8px;
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+}
+
+#info-02, #info-03 {
+  width: 95px;
+  height: 36px;
+}
+
+#text-attention {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 24px;
+}
